@@ -77,6 +77,7 @@ class Model(object):
         while not terminal:
             i += 1
             cost = self._train(inputs, targets)
+            print(i, cost)
             if cost < min_cost or i > max_iter:
                 terminal = True
             losses.append(cost)
