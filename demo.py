@@ -3,7 +3,7 @@
 
 # # Wavenet Demo
 # Demo of our efficient generation implementation.
-# 
+#
 # Trains wavenet on a single wav file. Then generates that file, starting from a single sample.
 
 # In[ ]:
@@ -15,7 +15,7 @@ from wavenet.models import Model, Generator
 
 from IPython.display import Audio
 
-get_ipython().magic(u'matplotlib inline')
+#get_ipython().magic(u'matplotlib inline')
 
 
 # In[ ]:
